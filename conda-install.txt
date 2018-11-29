@@ -1,0 +1,5 @@
+conda create -n tfk python=3.5
+activate tfk
+pip install widgetsnbextension
+conda install pandas matplotlib jupyter notebook scipy scikit-learn keras
+conda install -c conda-forge tensorflow
