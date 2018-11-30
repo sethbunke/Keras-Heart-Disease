@@ -1,0 +1,2 @@
+conda upgrade
+conda update --prefix C:\Anaconda3 anaconda
