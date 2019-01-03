@@ -3,3 +3,17 @@ activate keras-api
 pip install widgetsnbextension
 conda install pandas matplotlib jupyter notebook scipy scikit-learn keras
 conda install -c conda-forge tensorflow
+
+
+#WINDOWS WITH NEW ANACONDA INSTALL AND CONDA PROMPT
+conda create -n keras-api python=3.5
+conda activate keras-api
+pip install widgetsnbextension
+conda install -c conda-forge tensorflow
+conda install pandas matplotlib jupyter notebook scipy scikit-learn keras
+
+
+source activate myenv
+python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
+
+python -m ipykernel install --user --name keras-api --display-name "Python (keras-api)"
