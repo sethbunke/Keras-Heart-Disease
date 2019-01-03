@@ -5,6 +5,8 @@ import sklearn
 import matplotlib
 import keras
 
+#https://www.safaribooksonline.com/library/view/machine-learning-for/9781789536591/197f4fea-ca00-4a3a-b98f-f625a54b975a.xhtml
+
 print('Python: {}'.format(sys.version))
 print('Pandas: {}'.format(pd.__version__))
 print('Numpy: {}'.format(np.__version__))
