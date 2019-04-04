@@ -1,8 +1,10 @@
+#MacOS/Linux
 conda create -n keras-api python=3.5
-activate keras-api
+source activate keras-api
 pip install widgetsnbextension
-conda install pandas matplotlib jupyter notebook scipy scikit-learn keras
 conda install -c conda-forge tensorflow
+conda install pandas matplotlib jupyter notebook scipy scikit-learn keras
+
 
 
 #WINDOWS WITH NEW ANACONDA INSTALL AND CONDA PROMPT
@@ -17,3 +19,6 @@ source activate myenv
 python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 
 python -m ipykernel install --user --name keras-api --display-name "Python (keras-api)"
+
+LATEST - HAD TO UPDATE TO python=3.6 FOR TENSORFLOW TO WORK
+conda create -n ka1 python=3.6
